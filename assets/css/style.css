@@ -1,0 +1,130 @@
+/* fonts */
+
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.container__tarjetas h3 {
+  font-size: 2rem;
+}
+.container__contacto h2, .container__contacto p{
+  font-size: 1.8rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+/* body  */
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+/* navbar */
+
+nav,
+footer {
+  background-color: #373a3c;
+}
+.font-logo {
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+.separacion {
+  border: 1px solid black;
+}
+
+/* Sección recetas */
+.container__recetas ul li {
+  list-style: none;
+}
+.container__recetas p {
+  margin: 0;
+}
+
+/* Sección contacto */
+.container__contacto {
+  height: 70vh;
+}
+.logo {
+  font-family: "Lobster", cursive;
+}
+
+/* footer */
+
+footer {
+  height: 13vh;
+}
+footer p {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* fonts */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .container__tarjetas h3 {
+    font-size: 3rem;
+  }
+  .container__contacto h2, .container__contacto p {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+  }
+
+  .font-logo {
+    font-size: 2.3rem;
+    margin-left: 12rem;
+  }
+  .navbar-nav {
+    margin-right: 10rem;
+  }
+  .carousel-indicators li {
+    width: 13px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #373a3c;
+    
+  }
+  .separacion__tarjetas {
+    border: 1px solid black;
+  }
+  footer {
+    height: 15vh;
+  }
+  footer p {
+    font-size: 2.2rem;
+    padding-top: 28px;
+  }
+}
